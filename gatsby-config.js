@@ -1,37 +1,37 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
-const url = 'https://lumen.netlify.com'
+const url = 'https://codeleaked.com'
 
 module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
+    title: 'Trung Nguyen\'s corner',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+      'A blog of Trung Nguyen',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
       {
-        label: 'Articles',
+        label: 'Algorithm',
+        path: '/categories/algorithm/',
+      },
+      {
+        label: 'Optimization',
+        path: '/categories/optimization/',
+      },
+      {
+        label: 'All articles',
         path: '/',
-      },
-      {
-        label: 'About me',
-        path: '/about/',
-      },
-      {
-        label: 'Contact me',
-        path: '/contact/',
       },
     ],
     author: {
-      name: 'John Doe',
+      name: 'Trung Nguyen',
       email: '#',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: 'codeleaked',
       rss: '#',
       vk: '#',
     },
